@@ -1,1 +1,8 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "component_new"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
